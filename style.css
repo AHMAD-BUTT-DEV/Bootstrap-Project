@@ -1,0 +1,225 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+p {
+    font-weight: 400;
+    font-size: 1rem;
+    letter-spacing: 0.07rem;
+    line-height: 1.55rem;
+    font-synthesis: none;
+    text-rendering: optimizeLegibility;
+}
+
+a,
+li {
+    text-decoration: none;
+    list-style: none;
+}
+
+.nav-link {
+    color: white;
+}
+
+.nav-link:hover {
+    color: rgb(105, 156, 250);
+}
+
+.navbar-brand {
+    font-size: 1.5rem;
+}
+
+button,
+a {
+    font-size: 1.15rem;
+    letter-spacing: 0.03rem;
+    word-spacing: 0.1rem;
+}
+
+.common-heading {
+    font-size: 2.9rem;
+
+}
+
+.common-title {
+    font-size: 2.6rem;
+}
+
+.common-para {
+    font-size: 0.9rem;
+    letter-spacing: 0.1rem;
+}
+
+/* hero section */
+.hero-section .container {
+    display: grid;
+    place-content: center;
+    height: inherit;
+}
+
+.bg-main {
+    height: 90vh;
+    position: relative;
+}
+
+.bg-color {
+    background-color: black;
+}
+
+.bg-theme {
+    color: rgb(209, 15, 209);
+    background-image: none;
+}
+
+.hero-img {
+    width: 70%;
+    border-radius: 2rem;
+}
+
+.text-light-grey {
+    color: rgb(167, 165, 165);
+}
+
+.custom-shape-divider-bottom-1703758008 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1703758008 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 163px;
+    transform: rotateY(180deg);
+}
+
+.custom-shape-divider-bottom-1703758008 .shape-fill {
+    fill: #FFFFFF;
+}
+
+/** For mobile devices **/
+@media (max-width: 767px) {
+    .custom-shape-divider-bottom-1703758008 svg {
+        width: calc(154% + 1.3px);
+        height: 137px;
+    }
+}
+
+/* Services section */
+/* .services-section {
+    margin-top: ;
+} */
+
+.card-box {
+    border: 0px solid gray;
+    box-shadow: 11px 7px 20px 2px rgba(161, 161, 161, 0.3);
+}
+
+.card-box:hover {
+    box-shadow: 11px 7px 20px 2px rgba(161, 161, 161, 0.77);
+    -webkit-box-shadow: 11px 7px 20px 2px rgba(161, 161, 161, 0.77);
+    -moz-box-shadow: 11px 7px 20px 2px rgba(161, 161, 161, 0.77);
+}
+
+.icon-span {
+    background-color: rgb(0, 89, 255);
+    width: 2.5rem;
+    height: 2.5rem;
+    color: white;
+
+}
+
+/* Digital section starts from here */
+
+.more-info-section {
+    background-image: linear-gradient(rgba(22, 22, 22, 0.9), rgba(22, 22, 22, 0.9)), url("https://images.pexels.com/photos/534757/pexels-photo-534757.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    padding: 6rem 0;
+    overflow: hidden;
+
+}
+
+.more-info-section .img-section {
+    position: relative;
+}
+
+.more-info-section .img-section img {
+    width: 100%;
+
+}
+
+/* .social-section {
+    height: %;
+    width: 70%;
+} */
+
+#online-section {
+    padding-top: 3rem;
+}
+
+.carousel .card {
+    background-color: #262631;
+    color: white;
+    transition: all 0.3s linear;
+}
+
+.carousel-inner .card p {
+    color: white;
+}
+
+.carousel-inner .card:hover {
+    background-color: white;
+    color: black;
+}
+
+.carousel-inner .card:hover p {
+    color: black;
+}
+
+.carousel-indicators {
+    bottom: -3%;
+}
+
+.contact-section {
+    position: relative;
+}
+
+.custom-shape-divider-top-1704290782 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-top-1704290782 svg {
+    position: relative;
+    display: block;
+    width: calc(169% + 1.3px);
+    height: 251px;
+}
+
+.custom-shape-divider-top-1704290782 .shape-fill {
+    fill: #FFFFFF;
+}
+
+.contact-section .common-title {
+    padding-top: 6rem;
+}
+
+.contact-section .form-section {
+    width: 50%;
+}
